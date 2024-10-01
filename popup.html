@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Popup</title>
+    <style>
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            width: 80%;
+            max-width: 1600px;
+            height: 90vh;
+            max-height: 800px;
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.75);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 5;
+            overflow: hidden;
+            transition: 1s;
+            opacity: 0;
+        }
+        .popup.active {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 1;
+        }
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #f00;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="stories">
+    <div class="elements">
+        <div class="profile">
+            <img id="triggerImage" class="my-story" src="my-pic.jpg" alt="Your Story">
+        </div>
+        <h4>Your Story</h4>
+    </div>
+
+    <div class="popup">
+        <div class="top-bar">
+            <p class="image-name">My Story</p>
+            <span class="close-btn"></span>
+        </div>
+        <img src="my bg.jpeg" class="large-image" alt="">
+    </div>
+</div>
+
+<script>
+  const popup = document.querySelector('.popup');
+  const closeBtn = document.querySelector('.close-btn');
+  const triggerImage = document.getElementById('triggerImage'); 
+
+  console.log(popup, closeBtn, triggerImage); // Log to check if elements are selected
+
+  triggerImage.addEventListener('click', () => {
+      console.log("Image clicked"); // Log to see if the click event is triggered
+      popup.classList.add('active');
+  });
+
+  closeBtn.addEventListener('click', () => {
+      console.log("Close button clicked"); // Log to see if close button click works
+      popup.classList.remove('active');
+  });
+</script>
+
+</body>
+</html>

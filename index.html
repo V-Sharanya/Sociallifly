@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociallifly</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="website.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <!-----------------------LOGO--------------------------->
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="logo-image.png" />
+                </div>
+                <div class="heading">
+                    <img src="logo-name.png" />
+                    <h4> The Sky's the limit for Your Social Life </h4>
+                </div>
+            </div>
+            <!-----------------END OF LOGO-------------------------->
+
+            <!------------------SEARCH BAR------------------------->
+
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search" id="srch">
+            </div>
+            <!-------------END OF SEARCH BAR----------------------->
+
+            <div class="profile">
+                <img src="my-pic.jpg">
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <!--------------------LEFT SIDE------------------>
+
+            <div class="left">
+
+                <!---------------ACCOUNT NAME------------------>
+                <div class="profile-name">
+                    <div class="profile">
+                        <img src="my-pic.jpg">
+                    </div>
+                    <div class="name">
+                        <h3>V Sharanya</h3>
+                        <h6>@sharv</h6>
+                    </div>
+                </div>
+
+                <!-----------------SIDE BAR---------------------->
+                <div class="side-bar">
+                    <a class="items active" href="">
+                        <i class="uil uil-estate"></i>
+                        <h3>HOME</h3>
+                    </a>
+                    <a class="items" href="#">
+                        <i class="uil uil-compass"></i>
+                        <h3>EXPLORE</h3>
+                    </a>
+                    <a class="items" id="messages" href="#">
+                        <i class="uil uil-envelope"><small id="message-count" class="notification-count">7</small></i>
+                        <h3>MESSAGES</h3>
+                    </a>
+                    <a class="items" id="notification" href="#">
+                        <i class="uil uil-bell"><small id="notification-count" class="notification-count">9+</small></i>
+                        <h3>NOTIFICATIONS</h3>
+                    </a>
+                    <a class="items" id="request" href="#">
+                        <i class="uil uil-user-check"><small id="request-count" class="notification-count">3</small></i>
+                        <h3>REQUESTS</h3>
+                    </a>
+                    <a class="items" id="theme" href="#">
+                        <i class="uil uil-palette"></i>
+                        <h3>THEMES</h3>
+                    </a>
+                </div>
+                <!----------------END OF SIDE BAR------------------->
+            </div>
+            <!-------------------END OF LEFT SIDE--------------------->
+
+
+
+            <!--------------------MIDDLE--------------------------->
+            <div class="middle">
+
+                <!--------------------STORIES------------------------->
+                <div class="stories">
+                    <div id="triggerImage" class="elements">
+                        <div class="profile">
+                            <img class="my-story" src="my-pic.jpg" alt="Your Story">
+                        </div>
+                        <h4>Your Story</h4>
+                    </div>
+
+                    <div class="popup" id="popupYourStory">
+                        <div class="top-bar">
+                            <p class="image-name">My Story</p>
+                            <span class="close-btn"></span>
+                        </div>
+                        <img src="my bg.jpeg" class="large-image" alt="">
+                    </div>
+
+                    <div id="triggerImage1" class="elements">
+                        <div class="profile">
+                            <img src="sai pallavi.jpeg">
+                        </div>
+                        <h4>Sai Pallavi</h4>
+                    </div>
+
+                    <div class="popup" id="popupSaiPallavi">
+                        <div class="top-bar">
+                            <p class="image-name">Sai Pallavi Story</p>
+                            <span class="close-btn"></span>
+                        </div>
+                        <img src="sai pallavi bg.jpeg" class="large-image" alt="">
+                    </div>
+
+                    <div id="triggerImage2" class="elements">
+                        <div class="profile">
+                            <img src="neymar junior.jpeg">
+                        </div>
+                        <h4>Neymar Jr.</h4>
+                    </div>
+
+                    <div class="popup" id="popupNeymar">
+                        <div class="top-bar">
+                            <p class="image-name">Neymar Jr. Story</p>
+                            <span class="close-btn"></span>
+                        </div>
+                        <img src="neymar background.jpeg" class="large-image" alt="">
+                    </div>
+
+                    <div id="triggerImage3" class="elements">
+                        <div class="profile">
+                            <img src="siddhant chaturvedi.jpeg">
+                        </div>
+                        <h4>Siddhant</h4>
+                    </div>
+
+                    <div class="popup" id="popupSiddhant">
+                        <div class="top-bar">
+                            <p class="image-name">Siddhant Story</p>
+                            <span class="close-btn"></span>
+                        </div>
+                        <img src="siddhnat bg.jpeg" class="large-image" alt="">
+                    </div>
+
+                    <div id="triggerImage4" class="elements">
+                        <div class="profile">
+                            <img src="alia bhatt.jpg">
+                        </div>
+                        <h4>Alia Bhatt</h4>
+                    </div>
+
+                    <div class="popup" id="popupAlia">
+                        <div class="top-bar">
+                            <p class="image-name">Alia Bhatt Story</p>
+                            <span class="close-btn"></span>
+                        </div>
+                        <img src="alia bg.jpeg" class="large-image" alt="">
+                    </div>
+
+                    <div id="triggerImage5" class="elements">
+                        <div class="profile">
+                            <img src="armaan malik.webp">
+                        </div>
+                        <h4>Armaan Malik</h4>
+                    </div>
+
+                    <div class="popup" id="popupArmaan">
+                        <div class="top-bar">
+                            <p class="image-name">Armaan Malik Story</p>
+                            <span class="close-btn"></span>
+                        </div>
+                        <img src="armaan bg.jpeg" class="large-image" alt="">
+                    </div>
+                </div>
+                <!--------------------END OF STORIES---------------------->
+
+                <!-------------------CREATE POST-------------------->
+                <div class="create-post">
+                    <div class="create">
+                        <i class="uil uil-edit-alt"></i>
+                        <h3>Create post</h3>
+                    </div>
+                    <div class="text">
+                        <textarea id="my-textArea" placeholder="What's on your mind?"></textarea>
+                        <div class="profile">
+                            <img src="my-pic.jpg">
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="append" data-action="append">Create</button>
+                        <button class="replace" data-action="replace">Delete</button>
+                        <div class="dropdown-btn">
+                            <i id="info" class="uil uil-ellipsis-h"></i>
+                            <div class="dropdown">
+                                <ul>
+                                    <li>Save post</li>
+                                    <li>Hide post</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!----------------END OF CREATE POST------------------------>
+
+                <!---------------------------POST 1----------------------------->
+                <div id="post1">
+                    <div class="profile">
+                        <img src="my-pic.jpg">
+                    </div>
+                </div>
+                <!-------------------------END OF POST 1------------------------->
+
+                <!----------------------------POSTS----------------------------->
+                <div class="posts">
+                    <!-----------------------UP-BAR-------------------------->
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="armaan malik.webp">
+                        </div>
+
+                        <div class="post-name">
+                            <h1>Armaan Malik</h1>
+                            <h6>3 minutes ago </h6>
+                        </div>
+                        <div class="dropdown-btn">
+                            <i id="info" class="uil uil-ellipsis-h"></i>
+                            <div class="dropdown">
+                                <ul>
+                                    <li>Save post</li>
+                                    <li>Hide post</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------END OF UP-BAR----------------------->
+
+                    <!-----------------------SLIDER-------------------------->
+                    <div class="slider">
+                        <div class="list">
+                            <div class="item">
+                                <img src="armaan1.jpeg">
+                            </div>
+
+                            <div class="item">
+                                <img src="armaan2.jpeg">
+                            </div>
+                        </div>
+
+                        <div class="slider-buttons">
+                            <button id="prev" aria-label="Previous slide">
+                                < </button>
+                                    <button id="next" aria-label="Next slide">></button>
+                        </div>
+                    </div>
+                    <!-----------------------END OF SLIDER------------------------->
+
+                    <!-----------------------DOWN-BAR-------------------------->
+                    <div class="down-bar">
+                        <i class="uil uil-heart"><span>2.2k Likes</span></i>
+                        <div class="comments">
+                            <i class="comment-button uil uil-comment"><span>2 Comments</span></i>
+                            <div class="comment-dropdown">
+                                <ul>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-1.jpg">
+                                        </div>
+                                        <h5>Nice pic yaar..</h5>
+                                    </li>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-8.jpg">
+                                        </div>
+                                        <h5>Woww...</h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="share">
+                            <i id="share" class="uil uil-share-alt"></i>
+                            <div class="share-dropdown">
+                                <ul>
+                                    <li><i class="uil uil-facebook-f"></i> </li>
+                                    <li><i class="uil uil-twitter-alt"></i> </li>
+                                    <li><i class="uil uil-linkedin-alt"></i> </li>
+                                    <li><i class="uil uil-whatsapp"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="posts">
+                    <!-----------------------UP-BAR-------------------------->
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="alia bhatt.jpg">
+                        </div>
+
+                        <div class="post-name alia">
+                            <h1>Alia Bhatt</h1>
+                            <h6>3 hours ago </h6>
+                        </div>
+                        <div class="dropdown-btn">
+                            <i id="info" class="uil uil-ellipsis-h"></i>
+                            <div class="dropdown">
+                                <ul>
+                                    <li>Save post</li>
+                                    <li>Hide post</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------END OF UP-BAR----------------------->
+
+                    <!-----------------------SLIDER-------------------------->
+                    <div class="slider-alia">
+                        <div class="list-alia">
+                            <div class="item-alia">
+                                <img src="alia1.jpeg">
+                            </div>
+
+                            <div class="item-alia">
+                                <img src="alia2.jpeg">
+                            </div>
+                            <div class="item-alia">
+                                <img src="alia3.jpeg">
+                            </div>
+                        </div>
+
+                        <div class="slider-buttons-alia">
+                            <button id="prev-alia" aria-label="Previous slide">
+                                < </button>
+                                    <button id="next-alia" aria-label="Next slide">></button>
+                        </div>
+                    </div>
+                    <!-----------------------END OF SLIDER------------------------->
+
+                    <!-----------------------DOWN-BAR-------------------------->
+                    <div class="down-bar">
+                        <i class="uil uil-heart"><span>20k Likes</span></i>
+                        <div class="comments">
+                            <i class="comment-button uil uil-comment"><span>200 Comments</span></i>
+                            <div class="comment-dropdown alia">
+                                <ul>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-1.jpg">
+                                        </div>
+                                        <h5>Nice pic yaar..</h5>
+                                    </li>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-8.jpg">
+                                        </div>
+                                        <h5>Woww...</h5>
+                                    </li>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-6.jpg">
+                                        </div>
+                                        <h5>Looking cute </h5>
+                                    </li>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-2.jpg">
+                                        </div>
+                                        <h5>Cuttiieee..</h5>
+                                    </li>
+                                    <li>
+                                        <h5> 196+ comments</h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="share">
+                            <i id="share" class="uil uil-share-alt"></i>
+                            <div class="share-dropdown">
+                                <ul>
+                                    <li><i class="uil uil-facebook-f"></i> </li>
+                                    <li><i class="uil uil-twitter-alt"></i> </li>
+                                    <li><i class="uil uil-linkedin-alt"></i> </li>
+                                    <li><i class="uil uil-whatsapp"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="posts">
+                    <!-----------------------UP-BAR-------------------------->
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="neymar junior.jpeg">
+                        </div>
+
+                        <div class="post-name">
+                            <h1>Neymar Junior</h1>
+                            <h6>5 hours ago </h6>
+                        </div>
+                        <div class="dropdown-btn">
+                            <i id="info" class="uil uil-ellipsis-h"></i>
+                            <div class="dropdown">
+                                <ul>
+                                    <li>Save post</li>
+                                    <li>Hide post</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------END OF UP-BAR----------------------->
+
+                    <!-----------------------IMAGE-------------------------->
+                    <div class="slider">
+                        <img id="neymar" src="neymar3.jpeg">
+                    </div>
+                    <!-----------------------END OF IMAGE------------------------->
+
+                    <!-----------------------DOWN-BAR-------------------------->
+                    <div class="down-bar">
+                        <i class="uil uil-heart"><span>20k Likes</span></i>
+                        <div class="comments">
+                            <i class="comment-button uil uil-comment"><span>200 Comments</span></i>
+                            <div class="comment-dropdown alia">
+                                <ul>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-1.jpg">
+                                        </div>
+                                        <h5>Nice pic yaar..</h5>
+                                    </li>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-8.jpg">
+                                        </div>
+                                        <h5>Woww...</h5>
+                                    </li>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-6.jpg">
+                                        </div>
+                                        <h5>Looking cute </h5>
+                                    </li>
+                                    <li>
+                                        <div class="profile">
+                                            <img src="profile-2.jpg">
+                                        </div>
+                                        <h5>Cuttiieee..</h5>
+                                        <h5> 196+ comments</h5>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="share">
+                            <i id="share" class="uil uil-share-alt"></i>
+                            <div class="share-dropdown">
+                                <ul>
+                                    <li><i class="uil uil-facebook-f"></i> </li>
+                                    <li><i class="uil uil-twitter-alt"></i> </li>
+                                    <li><i class="uil uil-linkedin-alt"></i> </li>
+                                    <li><i class="uil uil-whatsapp"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------------End of Middle----------------------------->
+            </div>
+
+            <!---------------------------------RIGHT------------------------------------>
+            <div class="right">
+                <div class="requests">
+                    <div class="flex">
+                        <h3>Friend Requests</h3>
+                        <a href="#">See all</a>
+                    </div>
+                    <div class="all-requests">
+                        <div class="request">
+                            <div class="up-bar">
+                                <div class="profile">
+                                    <img src="profile-1.jpg">
+                                </div>
+                                <div class="post-name">
+                                    <h1>Pierson Whatt</h1>
+                                    <h6>3 hours ago </h6>
+                                </div>
+                            </div>
+                            <div class="request-button">
+                                <button class="confirm">Confirm</button>
+                                <button class="reject">Reject</button>
+                            </div>
+                        </div>
+                        <div class="request">
+                            <div class="up-bar">
+                                <div class="profile">
+                                    <img src="profile-2.jpg">
+                                </div>
+                                <div class="post-name">
+                                    <h1>James Cordan</h1>
+                                    <h6>21 hours ago </h6>
+                                </div>
+                            </div>
+                            <div class="request-button">
+                                <button class="confirm">Confirm</button>
+                                <button class="reject">Reject</button>
+                            </div>
+                        </div>
+                        <div class="request">
+                            <div class="up-bar">
+                                <div class="profile">
+                                    <img src="profile-6.jpg">
+                                </div>
+                                <div class="post-name">
+                                    <h1>Lila Vane</h1>
+                                    <h6>1 day ago </h6>
+                                </div>
+                            </div>
+                            <div class="request-button">
+                                <button class="confirm">Confirm</button>
+                                <button class="reject">Reject</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size,color, and background.</p>
+
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Lights-Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="notifications">
+        <div class="card">
+            <h2>Notifications</h2>
+            <div class="notify">
+                <div class="profile">
+                    <img src="profile-2.jpg" />
+                </div>
+                <div class="notification-body">
+                    <b>Keke Benjamin </b>accepted your friend request <br /><small class="text-muted">2 DAYS
+                        AGO</small>
+                </div>
+            </div>
+
+            <div class="notify">
+                <div class="profile">
+                    <img src="profile-1.jpg" />
+                </div>
+                <div class="notification-body">
+                    <b>Johanna Doe </b>commented on a post you are tagged in<br /> <small class="text-muted">1HOUR
+                        AGO</small>
+                </div>
+            </div>
+
+            <div class="notify">
+                <div class="profile">
+                    <img src="profile-6.jpg" />
+                </div>
+                <div class="notification-body">
+                    <b>Jane Clerk </b>commented on a post you are tagged in <br /><small class="text-muted">1HOUR
+                        AGO</small>
+                </div>
+            </div>
+
+            <div class="notify">
+                <div class="profile">
+                    <img src="profile-8.jpg" />
+                </div>
+                <div class="notification-body">
+                    <b>Georgina Washington </b>commented on a post you are tagged in <br /><small
+                        class="text-muted">1HOUR
+                        AGO</small>
+                </div>
+            </div>
+
+            <div class="notify">
+                <div class="profile">
+                    <img src="alia bhatt.jpg" />
+                </div>
+                <div class="notification-body">
+                    <b>Tiara Williams </b>commented on a post you are tagged in <br /><small class="text-muted">1HOUR
+                        AGO</small>
+                </div>
+            </div>
+
+            <div class="notify">
+                <div class="profile">
+                    <img src="armaan malik.webp" />
+                </div>
+                <div class="notification-body">
+                    <b>Harry Styles </b>commented on a post you are tagged in <br /><small class="text-muted">1HOUR
+                        AGO</small>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="messages">
+        <div class="card">
+            <h2>Messages</h2>
+            <div class="sides">
+                <div class="side1">
+                    <div class="chats">
+                        <h3>Top Chats</h3>
+                        <div class="up-bar pierson">
+                            <div class="profile">
+                                <img src="profile-1.jpg">
+                            </div>
+                            <div class="post-name">
+                                <h3>Pierson</h3>
+                                <h6>Just woke up bruh!! </h6>
+                            </div>
+                        </div>
+
+                        <div class="up-bar alia">
+                            <div class="profile">
+                                <img src="alia bhatt.jpg">
+                            </div>
+                            <div class="post-name">
+                                <h3>Alia Bhatt</h3>
+                                <h6>Nice movie gurll.. </h6>
+                            </div>
+                        </div>
+
+                        <div class="up-bar lily">
+                            <div class="profile">
+                                <img src="profile-6.jpg">
+                            </div>
+                            <div class="post-name">
+                                <h3>Lily Vane</h3>
+                                <h6>Done </h6>
+                            </div>
+                        </div>
+
+                        <div class="up-bar tane">
+                            <div class="profile">
+                                <img src="profile-8.jpg">
+                            </div>
+                            <div class="post-name">
+                                <h3>Tane Williams</h3>
+                                <h6>Yeah </h6>
+                            </div>
+                        </div>
+
+                        <div class="up-bar neymar">
+                            <div class="profile">
+                                <img src="neymar junior.jpeg">
+                            </div>
+                            <div class="post-name">
+                                <h3>Neymar Jr.</h3>
+                                <h6>Lorem, ipsum dolor... </h6>
+                            </div>
+                        </div>
+
+                        <div class="up-bar sai">
+                            <div class="profile">
+                                <img src="sai pallavi.jpeg">
+                            </div>
+                            <div class="post-name">
+                                <h3>Sai Pallavi</h3>
+                                <h6>Happy Birthday!! </h6>
+                            </div>
+                        </div>
+
+                        <div class="up-bar armaan">
+                            <div class="profile">
+                                <img src="armaan malik.webp">
+                            </div>
+                            <div class="post-name">
+                                <h3>Armaan Malik</h3>
+                                <h6>Kk. </h6>
+                            </div>
+                        </div>
+
+                        <div class="up-bar siddhant">
+                            <div class="profile">
+                                <img src="siddhant chaturvedi.jpeg">
+                            </div>
+                            <div class="post-name">
+                                <h3>Siddhant</h3>
+                                <h6>Nice pics bro.. </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="side2 alia">
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="alia bhatt.jpg">
+                            <h3>Alia Bhatt</h3>
+                        </div>
+                        <div class="buttons">
+                            <i class="uil uil-video"></i>
+                            <i class="uil uil-phone-volume"></i>
+                            <i class="uil uil-info-circle"></i>
+                        </div>
+                    </div>
+                    <div class="chat">
+                        <h5>Nice movie gurll. How have you been? It;s been a long time since we met. Come'on !! Let's meet.</h5>
+                        <h5>Ohh! Thank you. I'm glad to hear that you liked the movie. Yeah!! Let's meet.Is Tommorow 5pm okay for you? </h5>
+                        <input type="text">
+                        <i class="uil uil-message"></i>
+                    </div>
+                </div>
+
+                <div class="side2 pierson">
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="profile-1.jpg">
+                            <h3>Pierson </h3>
+                        </div>
+                        <div class="buttons">
+                            <i class="uil uil-video"></i>
+                            <i class="uil uil-phone-volume"></i>
+                            <i class="uil uil-info-circle"></i>
+                        </div>
+                    </div>
+                    <div class="chat">
+                        <h5>Just woke up bruh..Gotta go yo yhe classes. I'm late as always..Don't worrry I'll be there soon..</h5>
+                        <h5>Come fast yaar.. We are waiting for you. We are late for the presentation.. Come Fast!!!! </h5>
+                        <input type="text">
+                        <i class="uil uil-message"></i>
+                    </div>
+                </div>
+
+                <div class="side2 lily">
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="profile-6.jpg">
+                            <h3>Lily Vane </h3>
+                        </div>
+                        <div class="buttons">
+                            <i class="uil uil-video"></i>
+                            <i class="uil uil-phone-volume"></i>
+                            <i class="uil uil-info-circle"></i>
+                        </div>
+                    </div>
+                    <div class="chat">
+                        <h5>Just woke up bruh..Gotta go yo yhe classes. I'm late as always..Don't worrry I'll be there soon..</h5>
+                        <h5>Come fast yaar.. We are waiting for you. We are late for the presentation.. Come Fast!!!! </h5>
+                        <input type="text">
+                        <i class="uil uil-message"></i>
+                    </div>
+                </div>
+
+                <div class="side2 tane">
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="profile-8.jpg">
+                            <h3>Tane W. </h3>
+                        </div>
+                        <div class="buttons">
+                            <i class="uil uil-video"></i>
+                            <i class="uil uil-phone-volume"></i>
+                            <i class="uil uil-info-circle"></i>
+                        </div>
+                    </div>
+                    <div class="chat">
+                        <h5>Just woke up bruh..Gotta go yo yhe classes. I'm late as always..Don't worrry I'll be there soon..</h5>
+                        <h5>Come fast yaar.. We are waiting for you. We are late for the presentation.. Come Fast!!!! </h5>
+                        <input type="text">
+                        <i class="uil uil-message"></i>
+                    </div>
+                </div>
+
+                <div class="side2 neymar">
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="neymar junior.jpeg">
+                            <h3>Neymar Jr. </h3>
+                        </div>
+                        <div class="buttons">
+                            <i class="uil uil-video"></i>
+                            <i class="uil uil-phone-volume"></i>
+                            <i class="uil uil-info-circle"></i>
+                        </div>
+                    </div>
+                    <div class="chat">
+                        <h5>Just woke up bruh..Gotta go yo yhe classes. I'm late as always..Don't worrry I'll be there soon..</h5>
+                        <h5>Come fast yaar.. We are waiting for you. We are late for the presentation.. Come Fast!!!! </h5>
+                        <input type="text">
+                        <i class="uil uil-message"></i>
+                    </div>
+                </div>
+
+                <div class="side2 sai">
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="sai pallavi.jpeg">
+                            <h3>Sai Pallavi </h3>
+                        </div>
+                        <div class="buttons">
+                            <i class="uil uil-video"></i>
+                            <i class="uil uil-phone-volume"></i>
+                            <i class="uil uil-info-circle"></i>
+                        </div>
+                    </div>
+                    <div class="chat">
+                        <h5>Just woke up bruh..Gotta go yo yhe classes. I'm late as always..Don't worrry I'll be there soon..</h5>
+                        <h5>Come fast yaar.. We are waiting for you. We are late for the presentation.. Come Fast!!!! </h5>
+                        <input type="text">
+                        <i class="uil uil-message"></i>
+                    </div>
+                </div>
+
+                <div class="side2 armaan">
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="armaan malik.webp">
+                            <h3>Armaan </h3>
+                        </div>
+                        <div class="buttons">
+                            <i class="uil uil-video"></i>
+                            <i class="uil uil-phone-volume"></i>
+                            <i class="uil uil-info-circle"></i>
+                        </div>
+                    </div>
+                    <div class="chat">
+                        <h5>Just woke up bruh..Gotta go yo yhe classes. I'm late as always..Don't worrry I'll be there soon..</h5>
+                        <h5>Come fast yaar.. We are waiting for you. We are late for the presentation.. Come Fast!!!! </h5>
+                        <input type="text">
+                        <i class="uil uil-message"></i>
+                    </div>
+                </div>
+
+                <div class="side2 siddhant">
+                    <div class="up-bar">
+                        <div class="profile">
+                            <img src="siddhant chaturvedi.jpeg">
+                            <h3>Siddhant </h3>
+                        </div>
+                        <div class="buttons">
+                            <i class="uil uil-video"></i>
+                            <i class="uil uil-phone-volume"></i>
+                            <i class="uil uil-info-circle"></i>
+                        </div>
+                    </div>
+                    <div class="chat">
+                        <h5>Just woke up bruh..Gotta go to the classes. I'm late as always..Don't worrry I'll be there soon..</h5>
+                        <h5>Come fast yaar.. We are waiting for you. We are late for the presentation.. Come Fast!!!! </h5>
+                        <input type="text">
+                        <i class="uil uil-message"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="website.js"></script>
+</body>
+
+</html>
